@@ -12,7 +12,7 @@ tar xzf run_test.tgz
 cd run_test
 
 # Run inversion
-echo "Testing RUNA3_lite"
+echo "-- Testing RUNA3_lite --"
 ${WPHASE_HOME}/bin/RUNA3_lite.csh
 
 # Check results
@@ -22,6 +22,10 @@ ${WPHASE_HOME}/bin/RUNA3_lite.csh
 #endif
 
 # Run grid-search
-echo "Testing grid-search"
+echo "-- Testing grid-search --"
 python ${WPHASE_HOME}/bin/wp_grid_search.py
+
+# Run traces
+echo "-- Testing traces.py --"
+python ${WPHASE_HOME}/bin/traces.py
 
