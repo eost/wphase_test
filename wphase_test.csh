@@ -31,7 +31,3 @@ if ( $result != 0 ) then
     exit(1)
 endif
 
-# Run traces
-echo "-- Testing traces.py --"
-python ${WPHASE_HOME}/bin/traces.py
-
