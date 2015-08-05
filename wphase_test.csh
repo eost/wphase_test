@@ -15,15 +15,21 @@ cd run_test
 echo "-- Testing RUNA3_lite --"
 ${WPHASE_HOME}/bin/RUNA3_lite.csh
 
-# Check results
-#set result=`diff WCMTSOLUTION results/WCMTSOLUTION | wc -l`
-#if ( $result != 0 ) then
-#    exit(1)
-#endif
+# Check RUNA3 results
+set result=`diff WCMTSOLUTION results/WCMTSOLUTION | wc -l`
+if ( $result != 0 ) then
+    exit(1)
+endif
 
 # Run grid-search
 echo "-- Testing grid-search --"
 python ${WPHASE_HOME}/bin/wp_grid_search.py
+
+# Check grid-search results
+set result=`diff xy_WCMTSOLUTION results/xy_WCMTSOLUTION | wc -l`
+if ( $result != 0 ) then
+    exit(1)
+endif
 
 # Run traces
 echo "-- Testing traces.py --"
