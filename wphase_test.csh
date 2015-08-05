@@ -7,7 +7,7 @@ setenv GMT_BIN "None"
 setenv RDSEED  "None"
 
 # Get data
-wget http://wphase.unistra.fr/run_test.tgz
+# wget http://wphase.unistra.fr/run_test.tgz
 tar xzf run_test.tgz
 cd run_test
 
