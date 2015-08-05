@@ -5,6 +5,7 @@
 setenv GF_PATH ./GFS
 setenv GMT_BIN "None"
 setenv RDSEED  "None"
+setenv OMP_NUM_THREADS 4
 
 # Get data
 # wget http://wphase.unistra.fr/run_test.tgz
