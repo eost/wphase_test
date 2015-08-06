@@ -22,6 +22,7 @@ if ( $result != 0 ) then
     exit(1)
 endif
 
+
 # Run grid-search
 echo "-- Testing grid-search --"
 python ${WPHASE_HOME}/bin/wp_grid_search.py
@@ -38,5 +39,13 @@ echo "-- Testing traces.py --"
 ${WPHASE_HOME}/bin/traces.py
 if ( ! -e wp_pages.pdf ) then
      echo "ERROR using traces.py"
+     exit(1)
+endif
+
+
+# Test cmtascii
+${WPHASE_HOME}/bin/cmtascii xy_WCMTSOLUTION
+if ( $status == 1 )
+     echo "ERROR using cmtascii"
      exit(1)
 endif
