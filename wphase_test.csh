@@ -12,8 +12,8 @@ tar xzf run_test.tgz
 cd run_test
 
 # Run inversion
-echo "-- Testing RUNA3 --"
-${WPHASE_HOME}/bin/RUNA3.csh
+echo "-- Testing RUNA3_lite --"
+${WPHASE_HOME}/bin/RUNA3_lite.csh
 
 # Check RUNA3 results
 set result=`diff WCMTSOLUTION results/WCMTSOLUTION | wc -l`
