@@ -14,6 +14,10 @@ cd run_test
 # Run inversion
 echo "-- Testing RUNA3_lite --"
 ${WPHASE_HOME}/bin/RUNA3_lite.csh
+if ( $status ) then
+    echo "ERROR using RUNA3_lite.csh"
+    exit(1)
+endif
 
 # Check RUNA3 results
 set result=`diff WCMTSOLUTION results/WCMTSOLUTION | wc -l`
@@ -26,6 +30,10 @@ endif
 # Run grid-search
 echo "-- Testing grid-search --"
 python ${WPHASE_HOME}/bin/wp_grid_search.py
+if ( $status ) then
+    echo "ERROR using wp_grid_search.py"
+    exit(1)
+endif
 
 # Check grid-search results
 set result=`diff xy_WCMTSOLUTION results/xy_WCMTSOLUTION | wc -l`
@@ -37,15 +45,15 @@ endif
 # Run traces
 echo "-- Testing traces.py --"
 ${WPHASE_HOME}/bin/traces.py
-if ( ! -e wp_pages.pdf ) then
+if ( ( $status ) || ( ! -e wp_pages.pdf ) ) then
      echo "ERROR using traces.py"
      exit(1)
 endif
 
-
 # Test cmtascii
 ${WPHASE_HOME}/bin/cmtascii xy_WCMTSOLUTION
-if ( $status == 1 )
+if ( $status )  then
      echo "ERROR using cmtascii"
      exit(1)
 endif
+
