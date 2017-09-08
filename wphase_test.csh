@@ -79,4 +79,4 @@ endif
 
 # All done
 echo "----"
-echo "ALL TESTED HAVE PASSED"
+echo "ALL DONE"
