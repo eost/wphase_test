@@ -23,6 +23,7 @@ endif
 set result=`diff WCMTSOLUTION results/WCMTSOLUTION | wc -l`
 if ( $result != 0 ) then
     echo "WCMTSOLUTION and results/WCMTSOLUTION are different"
+    diff -wy WCMTSOLUTION results/WCMTSOLUTION
     exit(1)
 endif
 
@@ -39,6 +40,7 @@ endif
 set result=`diff xy_WCMTSOLUTION results/xy_WCMTSOLUTION | wc -l`
 if ( $result != 0 ) then
     echo "xy_WCMTSOLUTION and results/xy_WCMTSOLUTION are different"
+    diff -xy xy_WCMTSOLUTION results/xy_WCMTSOLUTION
     exit(1)
 endif
 
