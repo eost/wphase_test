@@ -25,6 +25,8 @@ if ( $result != 0 ) then
     echo "WCMTSOLUTION and results/WCMTSOLUTION are different"
     diff -wy WCMTSOLUTION results/WCMTSOLUTION
     python cmt_diff.py WCMTSOLUTION results/WCMTSOLUTION
+    echo $SHELL
+    echo $?
     if ( $? != 0 ) then
         echo "Differences are significant"
        exit(1)
