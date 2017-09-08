@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : MAJO
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 00
+* Start             : 1997,323,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  36.545670
+* Longitude         :  138.204060
+* Elevation         :   405.0
+* Depth             : 405.0
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 1.502474e+13

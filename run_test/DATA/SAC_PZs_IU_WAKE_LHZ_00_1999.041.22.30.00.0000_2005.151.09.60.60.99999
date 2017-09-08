@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : WAKE
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 00
+* Start             : 1997,126,00:00:00
+* End               : 2007,241,00:00:00
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  19.283400
+* Longitude         :  166.652000
+* Elevation         :   -61.7
+* Depth             : -61.7
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-59.4313  0.0000
+-22.7121  27.1065
+-22.7121  -27.1065
+-0.0048  0.0000
+-0.0732  0.0000
+CONSTANT 2.989662e+14

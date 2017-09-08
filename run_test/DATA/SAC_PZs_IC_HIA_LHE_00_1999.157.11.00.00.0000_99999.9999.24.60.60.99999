@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): IC
+* Station   (KSTNM) : HIA
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 00
+* Start             : 1994,338,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  49.270400
+* Longitude         :  119.741400
+* Elevation         :   620.0
+* Depth             : 620.0
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 1.443873e+13

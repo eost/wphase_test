@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : SBA
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 00
+* Start             : 1998,301,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          : -77.849200
+* Longitude         :  166.757200
+* Elevation         :    48.0
+* Depth             :  48.0
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0370  0.0370
+-0.0370  -0.0370
+-197.9000  197.9000
+-197.9000  -197.9000
+-911.1000  0.0000
+CONSTANT 2.392051e+18

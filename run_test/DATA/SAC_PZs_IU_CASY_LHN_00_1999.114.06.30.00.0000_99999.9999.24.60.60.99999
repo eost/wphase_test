@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : CASY
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 00
+* Start             : 1999,114,06:30:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          : -66.279200
+* Longitude         :  110.535400
+* Elevation         :     5.0
+* Depth             :   5.0
+* Dip               :   0.0
+* Azimuth           : 180.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 1.502462e+13

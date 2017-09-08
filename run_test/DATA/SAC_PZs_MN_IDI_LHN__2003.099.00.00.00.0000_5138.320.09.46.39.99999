@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): MN
+* Station   (KSTNM) : IDI
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 
+* Start             : 1994,275,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  35.288000
+* Longitude         :   24.890000
+* Elevation         :   750.0
+* Depth             : 750.0
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : GC
+* **********************************
+ZEROS 3
+POLES 5
+-0.0356  -0.0369
+-0.0356  0.0369
+-251.3300  0.0000
+-131.0400  -467.2900
+-131.0400  467.2900
+CONSTANT 4.936887e+17

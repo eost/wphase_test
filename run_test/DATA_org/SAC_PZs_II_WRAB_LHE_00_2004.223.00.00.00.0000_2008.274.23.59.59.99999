@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): II
+* Station   (KSTNM) : WRAB
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 00
+* Start             : 1994,086,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          : -19.933600
+* Longitude         :  134.360000
+* Elevation         :   366.0
+* Depth             : 366.0
+* Dip               :   0.0
+* Azimuth           :  90.9
+* Instrument Comment: S/N #31
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 4
+-0.0048  0.0000
+-0.0744  0.0000
+-18.3832  23.2637
+-18.3832  -23.2637
+CONSTANT 8.128147e+12

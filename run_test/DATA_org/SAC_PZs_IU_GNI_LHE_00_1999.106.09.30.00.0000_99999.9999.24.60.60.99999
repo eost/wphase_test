@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : GNI
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 00
+* Start             : 1997,139,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  40.148000
+* Longitude         :   44.741000
+* Elevation         :  1509.0
+* Depth             : 1509.0
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 1.539551e+13

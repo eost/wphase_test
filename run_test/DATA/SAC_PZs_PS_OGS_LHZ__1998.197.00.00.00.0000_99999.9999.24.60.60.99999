@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): PS
+* Station   (KSTNM) : OGS
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 
+* Start             : 1992,180,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  27.057000
+* Longitude         :  142.203000
+* Elevation         :    20.0
+* Depth             :  20.0
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : N/A
+* **********************************
+ZEROS 2
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 3.801006e+09

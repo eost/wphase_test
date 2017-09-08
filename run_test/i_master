@@ -1,0 +1,14 @@
+EVNAME:     SUMATRA_2004
+SEED:       ./SEEDS/122604A.IRIS_DMC.DATA.14510
+DMIN:       15.00
+DMAX:       48.00
+CMTFILE:    CMTSOLUTION
+
+filt_order: 4
+filt_cf1:   0.00100
+filt_cf2:   0.00500
+filt_pass:  1
+IDEC_2:  2  200  0.1
+IDEC_3:  0.001  0.1  100  0.03
+
+WP_WIN:    15.0

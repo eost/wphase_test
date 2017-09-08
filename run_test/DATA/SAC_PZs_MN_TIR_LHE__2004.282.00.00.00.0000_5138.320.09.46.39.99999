@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): MN
+* Station   (KSTNM) : TIR
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 
+* Start             : 1994,194,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  41.347200
+* Longitude         :   19.863100
+* Elevation         :   247.0
+* Depth             : 247.0
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: N/A
+* Channel Flag      : GC
+* **********************************
+ZEROS 3
+POLES 5
+-0.0356  -0.0369
+-0.0356  0.0369
+-251.3300  0.0000
+-131.0400  -467.2900
+-131.0400  467.2900
+CONSTANT 3.552360e+16

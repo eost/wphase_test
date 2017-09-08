@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : RAO
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 00
+* Start             : 2004,200,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          : -29.245000
+* Longitude         : -177.929000
+* Elevation         :    59.5
+* Depth             :  59.5
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 1.468082e+13

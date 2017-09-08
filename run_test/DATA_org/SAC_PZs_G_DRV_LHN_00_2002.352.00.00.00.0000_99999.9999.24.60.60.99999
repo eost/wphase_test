@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): G
+* Station   (KSTNM) : DRV
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 00
+* Start             : 1986,032,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          : -66.665000
+* Longitude         :  140.002000
+* Elevation         :    40.0
+* Depth             :  40.0
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : N/A
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-19.5873  24.5613
+-19.5873  -24.5613
+CONSTANT 9.954578e+11

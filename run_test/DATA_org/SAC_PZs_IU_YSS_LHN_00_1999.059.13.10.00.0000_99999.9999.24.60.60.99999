@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : YSS
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 00
+* Start             : 1997,043,06:18:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  46.958700
+* Longitude         :  142.760400
+* Elevation         :   148.0
+* Depth             : 148.0
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 1.485239e+13

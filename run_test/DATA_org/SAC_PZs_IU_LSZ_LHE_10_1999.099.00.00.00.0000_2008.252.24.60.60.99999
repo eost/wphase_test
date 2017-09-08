@@ -1,0 +1,33 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : LSZ
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 10
+* Start             : 1995,324,07:00:00
+* End               : 2008,252,00:00:00
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          : -15.277900
+* Longitude         :   28.188200
+* Elevation         :  1200.0
+* Depth             : 1200.0
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 6
+-15.1500  0.0000
+-318.6000  401.2000
+-318.6000  -401.2000
+POLES 9
+-0.0370  -0.0370
+-0.0370  0.0370
+-15.9900  0.0000
+-417.1000  0.0000
+-100.9000  401.9000
+-100.9000  -401.9000
+-7454.0000  -7142.0000
+-7454.0000  7142.0000
+-187.2390  0.0000
+CONSTANT 1.956993e+23

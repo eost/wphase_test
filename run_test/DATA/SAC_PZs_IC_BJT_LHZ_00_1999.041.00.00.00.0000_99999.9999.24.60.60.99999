@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): IC
+* Station   (KSTNM) : BJT
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 00
+* Start             : 1994,145,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  40.018300
+* Longitude         :  116.167900
+* Elevation         :   137.0
+* Depth             : 137.0
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 1.589896e+13

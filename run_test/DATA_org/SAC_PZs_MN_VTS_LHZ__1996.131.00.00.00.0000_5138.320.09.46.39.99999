@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): MN
+* Station   (KSTNM) : VTS
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 
+* Start             : 1996,131,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  42.618000
+* Longitude         :   23.235000
+* Elevation         :  1490.0
+* Depth             : 1490.0
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : GC
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 3.960900e+12

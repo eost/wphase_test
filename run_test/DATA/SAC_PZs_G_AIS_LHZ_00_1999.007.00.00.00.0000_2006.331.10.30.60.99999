@@ -1,0 +1,23 @@
+* **********************************
+* Network   (KNETWK): G
+* Station   (KSTNM) : AIS
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 00
+* Start             : 1993,359,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          : -37.797000
+* Longitude         :   77.569000
+* Elevation         :    35.9
+* Depth             :  35.9
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : N/A
+* **********************************
+ZEROS 3
+POLES 2
+-0.0370  -0.0370
+-0.0370  0.0370
+CONSTANT 6.105583e+08

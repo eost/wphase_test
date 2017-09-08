@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): II
+* Station   (KSTNM) : BFO
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 00
+* Start             : 1996,150,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  48.331900
+* Longitude         :    8.331100
+* Elevation         :   589.0
+* Depth             : 589.0
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: S/N #1
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1759  49.1230
+-39.1759  -49.1230
+CONSTANT 3.825702e+14

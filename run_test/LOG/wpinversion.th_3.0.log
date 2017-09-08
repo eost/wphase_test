@@ -1,0 +1,67 @@
+++++++++++
+Date-Time(UTC): Fri Sep  8 11:13:32 2017
+
+Command_line: /Users/zacharie/dev/WPHASE/wphase/bin/wpinversion
+Version: 
+Screening: -med  5.0  3.0
+GF_PATH: ./GFS
+Ref_solution: CMTSOLUTION
+rms_treshold: 3.000000
+cond_thre: 0.000000
+damp_fac: 0.000000
+med_val: 0.000000
+R_event_id: 122604A
+R_time_shift:   138.96
+R_half_duration:    95.00
+R_latitude:     3.09
+R_longitude:    94.26
+R_depth:    28.61
+R_Moment_tensor:   1.0400e+01  -4.2700e+00  -6.1000e+00   2.9800e+01  -2.4000e+01   4.2600e+00 
+WP_WIN:     0.0    15.0     0.0   180.0 
+stat: COCO      II        LHZ           15.4    176.1      0.0    231.4
+stat: CHTO      IU        LHZ           15.7     11.1      0.0    235.9
+stat: KMI       IC        LHZ           22.7     16.5      0.0    340.6
+stat: KMI       IC        LHN           22.7     16.5      0.0    340.6
+stat: KMI       IC        LHE           22.7     16.5      0.0    340.6
+stat: DGAR      II        LHN           25.6    245.4      0.0    383.9
+stat: DGAR      II        LHZ           25.6    245.4      0.0    383.9
+stat: DGAR      II        LHE           25.6    245.4      0.0    383.9
+stat: LSA       IC        LHN           26.6    350.9      0.0    399.4
+stat: LSA       IC        LHZ           26.6    350.9      0.0    399.4
+stat: LSA       IC        LHE           26.6    350.9      0.0    399.4
+stat: ENH       IC        LHN           29.8     24.4      0.0    447.1
+stat: ENH       IC        LHE           29.8     24.4      0.0    447.1
+stat: ENH       IC        LHZ           29.8     24.4      0.0    447.1
+stat: DAV       IU        LHE           29.9     81.6      0.0    448.6
+stat: TATO      IU        LHZ           32.8     46.6      0.0    492.3
+stat: XAN       IC        LHN           32.9     20.3      0.0    494.1
+stat: XAN       IC        LHZ           32.9     20.3      0.0    494.1
+stat: XAN       IC        LHE           32.9     20.3      0.0    494.1
+stat: SSE       IC        LHN           36.6     38.1      0.0    548.8
+stat: SSE       IC        LHE           36.6     38.1      0.0    548.8
+stat: SSE       IC        LHZ           36.6     38.1      0.0    548.8
+stat: WMQ       IC        LHE           41.0    351.1      0.0    614.6
+stat: WMQ       IC        LHN           41.0    351.1      0.0    614.6
+stat: WMQ       IC        LHZ           41.0    351.1      0.0    614.6
+stat: AAK       II        LHN           43.5    337.1      0.0    652.9
+stat: INCN      IU        LHE           44.2     35.8      0.0    663.4
+stat: INCN      IU        LHZ           44.2     35.8      0.0    663.4
+stat: INCN      IU        LHN           44.2     35.8      0.0    663.4
+stat: WRAB      II        LHN           44.4    123.0      0.0    665.5
+stat: WRAB      II        LHZ           44.4    123.0      0.0    665.5
+accepted_channels:   31 (1 rejected)
+Inversion: 5 significant eigenvalues: 
+7.821331e-05	5.848373e-05	2.397808e-05	6.328207e-07	2.743594e-07	
+n_used_rec:         31  
+Gap:                91.7   
+WCMT:      8.8570e-01    -5.9164e-01    -2.9406e-01     4.6597e-01    -2.6194e+00     6.0794e-01
+Cond_number:        285       
+W_bestnodal planes: 287.2    15.0     32.2     165.9    82.1     102.8   
+W_eigenvalues:      2.98085      -0.30968     -2.67117    
+W_cmt_err:          0.45484465   0.56781599  
+Wmag: 8.90  ; Wmom 2.8260e+29      ; Wmom_12 3.4784e+29     
+R_bestnodal planes: 329.0    7.6      109.5    129.3    82.8     87.4    
+R_eigenvalues:      40.14542     -1.19372     -38.92170   
+R_cmt_err:          0.49424364   0.62166096  
+Rmag: 9.00  ; Rmom 3.9534e+29      ; Rmom_12 2.5539e+29     
+ratio =   1.39891672 ;  epsilon =   0.68263868

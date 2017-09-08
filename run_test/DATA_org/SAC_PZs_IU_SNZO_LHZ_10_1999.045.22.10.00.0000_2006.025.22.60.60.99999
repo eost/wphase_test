@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : SNZO
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 10
+* Start             : 1997,323,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          : -41.308700
+* Longitude         :  174.704300
+* Elevation         :   120.0
+* Depth             : 120.0
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0370  0.0370
+-0.0370  -0.0370
+-197.9000  197.9000
+-197.9000  -197.9000
+-911.1000  0.0000
+CONSTANT 2.428477e+18

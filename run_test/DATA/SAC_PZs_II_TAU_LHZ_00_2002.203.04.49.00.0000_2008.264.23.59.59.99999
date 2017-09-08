@@ -1,0 +1,32 @@
+* **********************************
+* Network   (KNETWK): II
+* Station   (KSTNM) : TAU
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 00
+* Start             : 1994,017,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          : -42.909900
+* Longitude         :  147.320400
+* Elevation         :   132.0
+* Depth             : 132.0
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: S/N #18218
+* Channel Flag      : CG
+* **********************************
+ZEROS 6
+-78.5397  0.0000
+-0.1525  0.0000
+-0.1525  0.0000
+POLES 8
+-0.0123  0.0123
+-0.0123  -0.0123
+-0.1490  0.0000
+-0.1567  0.0000
+-40.0568  48.4075
+-40.0568  -48.4075
+-33.9245  0.0000
+-118.8514  0.0000
+CONSTANT 1.446984e+15

@@ -1,0 +1,32 @@
+* **********************************
+* Network   (KNETWK): II
+* Station   (KSTNM) : ABKT
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 00
+* Start             : 1993,115,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  37.930400
+* Longitude         :   58.118900
+* Elevation         :   678.0
+* Depth             : 678.0
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: S/N #89117
+* Channel Flag      : CG
+* **********************************
+ZEROS 6
+-78.5397  0.0000
+-0.1525  0.0000
+-0.1525  0.0000
+POLES 8
+-0.1078  0.0000
+-0.0061  0.0000
+-0.1078  0.0000
+-0.2404  0.0000
+-40.0568  48.4075
+-40.0568  -48.4075
+-33.9245  0.0000
+-118.8514  0.0000
+CONSTANT 1.331203e+15

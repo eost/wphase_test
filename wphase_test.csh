@@ -24,7 +24,13 @@ set result=`diff WCMTSOLUTION results/WCMTSOLUTION | wc -l`
 if ( $result != 0 ) then
     echo "WCMTSOLUTION and results/WCMTSOLUTION are different"
     diff -wy WCMTSOLUTION results/WCMTSOLUTION
-    exit(1)
+    python cmt_diff.py WCMTSOLUTION results/WCMTSOLUTION
+    if ( $? != 0 ) then
+        echo "Differences are significant"
+       exit(1)
+    else
+        echo "Differences are not significant"
+    endif
 endif
 
 
@@ -41,12 +47,22 @@ set result=`diff xy_WCMTSOLUTION results/xy_WCMTSOLUTION | wc -l`
 if ( $result != 0 ) then
     echo "xy_WCMTSOLUTION and results/xy_WCMTSOLUTION are different"
     diff -xy xy_WCMTSOLUTION results/xy_WCMTSOLUTION
-    exit(1)
+    python cmt_diff.py xy_WCMTSOLUTION results/xy_WCMTSOLUTION
+    if ( $? != 0 ) then
+        echo "Differences are significant"
+        exit(1)
+    else
+        echo  "Differences are not significant"
+    endif        
 endif
 
 # Run traces
 echo "-- Testing traces.py --"
-${WPHASE_HOME}/bin/traces.py
+if ( -e ${WPHASE_HOME}/bin/traces.py ) then
+    ${WPHASE_HOME}/bin/traces.py
+else
+    ${WPHASE_HOME}/bin/traces_global.py
+endif
 if ( ( $status ) || ( ! -e wp_pages.pdf ) ) then
      echo "ERROR using traces.py"
      exit(1)
@@ -59,3 +75,7 @@ if ( $status )  then
      exit(1)
 endif
 
+
+# All done
+echo "----"
+echo "ALL TESTED HAVE PASSED"

@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): PS
+* Station   (KSTNM) : SYO
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 
+* Start             : 1990,001,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          : -69.006700
+* Longitude         :   39.585000
+* Elevation         :    20.0
+* Depth             :  20.0
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: N/A
+* Channel Flag      : N/A
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 3.811177e+12

@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): CZ
+* Station   (KSTNM) : DPC
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 
+* Start             : 1992,342,00:00:00
+* End               : 2008,307,23:59:59
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  50.358300
+* Longitude         :   16.411100
+* Elevation         :   760.0
+* Depth             : 760.0
+* Dip               :   0.0
+* Azimuth           : 180.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0356  -0.0369
+-0.0356  0.0369
+-251.3300  0.0000
+-131.0400  -467.2900
+-131.0400  467.2900
+CONSTANT 3.755104e+16

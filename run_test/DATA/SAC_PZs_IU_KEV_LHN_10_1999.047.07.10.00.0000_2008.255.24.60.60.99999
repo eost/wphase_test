@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : KEV
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 10
+* Start             : 1997,269,09:00:00
+* End               : 2008,255,00:00:00
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  69.756500
+* Longitude         :   27.003500
+* Elevation         :    85.0
+* Depth             :  85.0
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0370  0.0370
+-0.0370  -0.0370
+-197.9000  197.9000
+-197.9000  -197.9000
+-911.1000  0.0000
+CONSTANT 2.483887e+18

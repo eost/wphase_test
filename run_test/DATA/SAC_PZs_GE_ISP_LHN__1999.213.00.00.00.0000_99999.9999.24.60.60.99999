@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): GE
+* Station   (KSTNM) : ISP
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 
+* Start             : 1999,213,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  37.843300
+* Longitude         :   30.509300
+* Elevation         :  1100.0
+* Depth             : 1100.0
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : TG
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 3.864710e+12

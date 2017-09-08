@@ -1,0 +1,77 @@
+++++++++++
+Date-Time(UTC): Fri Sep  8 11:13:32 2017
+
+Command_line: /Users/zacharie/dev/WPHASE/wphase/bin/wpinversion_gs
+Version: r252
+GF_PATH: ./GFS
+Screening: -med 5.0 3.0 0.9
+Ref_solution: CMTSOLUTION
+rms_treshold: 0.000000
+cond_thre: 0.000000
+damp_fac: 0.000000
+med_val: 0.000000
+R_event_id: 122604A
+R_time_shift:   138.96
+R_half_duration:    95.00
+R_latitude:     3.09
+R_longitude:    94.26
+R_depth:    28.61
+R_Moment_tensor:   1.0400e+01  -4.2700e+00  -6.1000e+00   2.9800e+01  -2.4000e+01   4.2600e+00 
+WP_WIN:     0.0    15.0     0.0   180.0 
+stat: CHTO      IU        LHZ           15.7     11.1      0.0    235.9
+stat: KMI       IC        LHZ           22.7     16.5      0.0    340.6
+stat: KMI       IC        LHN           22.7     16.5      0.0    340.6
+stat: KMI       IC        LHE           22.7     16.5      0.0    340.6
+stat: DGAR      II        LHZ           25.6    245.4      0.0    383.9
+stat: DGAR      II        LHE           25.6    245.4      0.0    383.9
+stat: LSA       IC        LHZ           26.6    350.9      0.0    399.4
+stat: ENH       IC        LHN           29.8     24.4      0.0    447.1
+stat: ENH       IC        LHE           29.8     24.4      0.0    447.1
+stat: ENH       IC        LHZ           29.8     24.4      0.0    447.1
+stat: TATO      IU        LHZ           32.8     46.6      0.0    492.3
+stat: XAN       IC        LHZ           32.9     20.3      0.0    494.1
+stat: XAN       IC        LHE           32.9     20.3      0.0    494.1
+stat: SSE       IC        LHN           36.6     38.1      0.0    548.8
+stat: SSE       IC        LHE           36.6     38.1      0.0    548.8
+stat: SSE       IC        LHZ           36.6     38.1      0.0    548.8
+stat: WMQ       IC        LHE           41.0    351.1      0.0    614.6
+stat: WMQ       IC        LHN           41.0    351.1      0.0    614.6
+stat: WMQ       IC        LHZ           41.0    351.1      0.0    614.6
+stat: AAK       II        LHN           43.5    337.1      0.0    652.9
+stat: INCN      IU        LHE           44.2     35.8      0.0    663.4
+stat: INCN      IU        LHZ           44.2     35.8      0.0    663.4
+stat: WRAB      II        LHZ           44.4    123.0      0.0    665.5
+Inversion: 5 significant eigenvalues: 
+6.363770e-05	3.857429e-05	1.840633e-05	5.410112e-07	2.025103e-07	
+Fast time-shift grid search is enabled (output : grid_search_ts_out)
+Inversion: 5 significant eigenvalues: 
+4.594971e-05	2.996158e-05	1.374316e-05	2.997036e-07	1.453957e-07	
+n_used_rec:         23  
+Gap:                122.4  
+WCMT:      1.1975e+00    -6.5685e-01    -5.4069e-01     4.2137e+00    -6.1775e+00     6.9949e-01
+Cond_number:        316       
+W_bestnodal planes: 298.8    5.2      63.4     145.5    85.4     92.3    
+W_eigenvalues:      7.56522      0.03322      -7.59844    
+W_cmt_err:          0.29020317   0.31160422  
+Wmag: 9.19  ; Wmom 7.5818e+29      ; Wmom_12 3.3386e+29     
+R_bestnodal planes: 329.0    7.6      109.5    129.3    82.8     87.4    
+R_eigenvalues:      40.14542     -1.19372     -38.92170   
+R_cmt_err:          0.41460758   0.61778987  
+Rmag: 9.00  ; Rmom 3.9534e+29      ; Rmom_12 2.5539e+29     
+ratio =   0.52142501 ;  epsilon =   0.30292149
+centroid position grid search is enabled (output : grid_search_xy_out)
+Inversion: 5 significant eigenvalues: 
+5.003392e-05	3.201108e-05	1.437343e-05	2.444638e-07	1.469459e-07	
+n_used_rec:         23  
+Gap:                122.4  
+WCMT:      1.1452e+00    -6.1195e-01    -5.3328e-01     6.2475e+00    -6.9597e+00     6.3087e-01
+Cond_number:        340       
+W_bestnodal planes: 307.8    3.6      79.7     138.1    86.4     90.6    
+W_eigenvalues:      9.40080      0.05050      -9.45131    
+W_cmt_err:          0.28415128   0.30449651  
+Wmag: 9.25  ; Wmom 9.4261e+29      ; Wmom_12 2.9245e+29     
+R_bestnodal planes: 329.0    7.6      109.5    129.3    82.8     87.4    
+R_eigenvalues:      40.14542     -1.19372     -38.92170   
+R_cmt_err:          0.42901150   0.62597595  
+Rmag: 9.00  ; Rmom 3.9534e+29      ; Rmom_12 2.5539e+29     
+ratio =   0.41940720 ;  epsilon =   0.20709313

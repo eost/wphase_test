@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : TATO
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 10
+* Start             : 1992,270,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  24.973500
+* Longitude         :  121.497100
+* Elevation         :   159.7
+* Depth             : 159.7
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0356  -0.0369
+-0.0356  0.0369
+-251.3300  0.0000
+-131.0400  -467.2900
+-131.0400  467.2900
+CONSTANT 1.502161e+17

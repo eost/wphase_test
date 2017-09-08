@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): IC
+* Station   (KSTNM) : ENH
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 10
+* Start             : 1997,263,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  30.276200
+* Longitude         :  109.494400
+* Elevation         :   500.0
+* Depth             : 500.0
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0356  -0.0369
+-0.0356  0.0369
+-251.3300  0.0000
+-131.0400  -467.2900
+-131.0400  467.2900
+CONSTANT 2.002523e+18

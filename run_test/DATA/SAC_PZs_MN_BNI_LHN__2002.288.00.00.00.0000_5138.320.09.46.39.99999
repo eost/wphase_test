@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): MN
+* Station   (KSTNM) : BNI
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 
+* Start             : 1988,121,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  45.052000
+* Longitude         :    6.678000
+* Elevation         :  1395.0
+* Depth             : 1395.0
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : GC
+* **********************************
+ZEROS 3
+POLES 5
+-0.0356  -0.0369
+-0.0356  0.0369
+-251.3300  0.0000
+-131.0400  -467.2900
+-131.0400  467.2900
+CONSTANT 3.721629e+16

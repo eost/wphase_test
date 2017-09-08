@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : FURI
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 10
+* Start             : 1997,244,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :   8.895200
+* Longitude         :   38.679800
+* Elevation         :  2565.0
+* Depth             : 2565.0
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0370  0.0370
+-0.0370  -0.0370
+-197.9000  197.9000
+-197.9000  -197.9000
+-911.1000  0.0000
+CONSTANT 2.424059e+18

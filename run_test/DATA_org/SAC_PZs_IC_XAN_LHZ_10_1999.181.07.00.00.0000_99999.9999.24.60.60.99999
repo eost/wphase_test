@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): IC
+* Station   (KSTNM) : XAN
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 10
+* Start             : 1992,334,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  34.031300
+* Longitude         :  108.923700
+* Elevation         :   630.0
+* Depth             : 630.0
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0356  -0.0369
+-0.0356  0.0369
+-251.3300  0.0000
+-131.0400  -467.2900
+-131.0400  467.2900
+CONSTANT 1.501910e+17

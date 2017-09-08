@@ -1,0 +1,25 @@
+* **********************************
+* Network   (KNETWK): IC
+* Station   (KSTNM) : LSA
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 00
+* Start             : 1995,215,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  29.703100
+* Longitude         :   91.127000
+* Elevation         :  3645.0
+* Depth             : 3645.0
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 4
+-0.0123  0.0123
+-0.0123  -0.0123
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 1.469267e+13

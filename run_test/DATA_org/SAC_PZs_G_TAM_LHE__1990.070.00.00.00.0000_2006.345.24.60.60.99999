@@ -1,0 +1,31 @@
+* **********************************
+* Network   (KNETWK): G
+* Station   (KSTNM) : TAM
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 
+* Start             : 1983,320,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  22.791000
+* Longitude         :    5.527000
+* Elevation         :  1377.0
+* Depth             : 1377.0
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 10
+-0.0123  0.0123
+-0.0123  -0.0123
+-19.5878  24.5617
+-19.5878  -24.5617
+-30.3802  7.8760
+-30.3802  -7.8760
+-22.2628  22.1437
+-22.2628  -22.1437
+-8.1697  30.4166
+-8.1697  -30.4166
+CONSTANT 1.757595e+21

@@ -1,0 +1,32 @@
+* **********************************
+* Network   (KNETWK): II
+* Station   (KSTNM) : KIV
+* Component (KCMPNM): LHE
+* Location  (KHOLE) : 00
+* Start             : 1994,032,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  43.955300
+* Longitude         :   42.686300
+* Elevation         :  1054.0
+* Depth             : 1054.0
+* Dip               :   0.0
+* Azimuth           :  90.0
+* Instrument Comment: S/N #18715
+* Channel Flag      : CG
+* **********************************
+ZEROS 6
+-78.5397  0.0000
+-0.1525  0.0000
+-0.1525  0.0000
+POLES 8
+-0.0124  0.0121
+-0.0124  -0.0121
+-0.1498  0.0000
+-0.1560  0.0000
+-40.0568  48.4075
+-40.0568  -48.4075
+-33.9245  0.0000
+-118.8514  0.0000
+CONSTANT 1.154579e+15

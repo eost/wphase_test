@@ -1,0 +1,27 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : ANTO
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 00
+* Start             : 2002,150,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  39.868000
+* Longitude         :   32.793400
+* Elevation         :   895.0
+* Depth             : 895.0
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 4
+POLES 6
+-89.8500  0.0000
+-18.4300  18.9100
+-18.4300  -18.9100
+-0.0123  0.0123
+-0.0123  -0.0123
+-0.0042  0.0000
+CONSTANT 2.551068e+14

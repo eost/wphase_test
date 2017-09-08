@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : MBWA
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 10
+* Start             : 2001,237,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          : -21.159000
+* Longitude         :  119.731300
+* Elevation         :   181.0
+* Depth             : 181.0
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0370  0.0370
+-0.0370  -0.0370
+-197.9000  197.9000
+-197.9000  -197.9000
+-911.1000  0.0000
+CONSTANT 2.460636e+18
