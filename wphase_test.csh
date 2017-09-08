@@ -25,9 +25,8 @@ if ( $result != 0 ) then
     echo "WCMTSOLUTION and results/WCMTSOLUTION are different"
     diff -wy WCMTSOLUTION results/WCMTSOLUTION
     python cmt_diff.py WCMTSOLUTION results/WCMTSOLUTION
-    echo $SHELL
-    echo $?
-    if ( $? != 0 ) then
+    echo $status
+    if ( $status != 0 ) then
         echo "Differences are significant"
        exit(1)
     else
@@ -50,7 +49,7 @@ if ( $result != 0 ) then
     echo "xy_WCMTSOLUTION and results/xy_WCMTSOLUTION are different"
     diff -xy xy_WCMTSOLUTION results/xy_WCMTSOLUTION
     python cmt_diff.py xy_WCMTSOLUTION results/xy_WCMTSOLUTION
-    if ( $? != 0 ) then
+    if ( $status != 0 ) then
         echo "Differences are significant"
         exit(1)
     else
